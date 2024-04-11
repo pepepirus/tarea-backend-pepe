@@ -1,0 +1,14 @@
+api:
+  identifier: "car"
+  port: 3312
+
+logger:
+  options:
+    level: trace
+
+mongodb:
+  url: "mongodb://localhost:27017"
+  database: "car"
+  options:
+    useUnifielTopology: true
+    useNewUrlParser: true
